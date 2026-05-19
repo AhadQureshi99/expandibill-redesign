@@ -1,30 +1,31 @@
+// Mirrors the 4 process steps on the original site.
 export const processSteps = [
   {
     n: '01',
     icon: 'Search',
-    title: 'Discovery & Audit',
+    title: 'Assessment & Discovery',
     text:
-      'We audit your current workflow, payer mix, and denial trends to find the biggest revenue leaks fast.',
+      'Assessment of your current medical billing processes, denial trends, and payer mix to find quick wins and long-term opportunities.',
   },
   {
     n: '02',
-    icon: 'Workflow',
-    title: 'Onboarding & Setup',
+    icon: 'PenRuler',
+    title: 'Custom Solution Design',
     text:
-      'Secure integration with your EHR/PMS and a written playbook tailored to your specialty and payers.',
+      'Tailored solutions to meet the unique needs of your practice for optimal results — never a one-size-fits-all playbook.',
   },
   {
     n: '03',
-    icon: 'Send',
-    title: 'Daily Operations',
+    icon: 'Workflow',
+    title: 'Implementation & Integration',
     text:
-      'We file, scrub, and follow up on claims every business day with senior reviewers double-checking complex cases.',
+      'Secure integration with your EHR / PMS, role-based access, and a documented handover so your team is never in the dark.',
   },
   {
     n: '04',
     icon: 'LineChart',
-    title: 'Reporting & Optimization',
+    title: 'Ongoing Management & Optimization',
     text:
-      'Monthly performance reviews with concrete next steps — not just dashboards. We keep raising the bar.',
+      'Daily operations plus monthly performance reviews with concrete next steps — we keep raising the bar.',
   },
 ]

@@ -1,32 +1,33 @@
+// "Why Choose Expandibill" — mirrors the original feature list.
 export const features = [
   {
-    icon: 'Lock',
-    title: 'HIPAA-compliant by design',
-    text: 'SOC 2-aligned controls, encrypted data flows, and signed BAAs from day one.',
+    icon: 'Award',
+    title: 'Expertise & Experience',
+    text: 'Certified medical billing and coding specialists with deep industry experience.',
   },
   {
-    icon: 'Users',
-    title: 'Senior, US-based reviewers',
-    text: 'Your account is owned by certified billers — not a rotating offshore queue.',
+    icon: 'ShieldCheck',
+    title: 'HIPAA Compliance',
+    text: 'Compliance assured — SOC 2-aligned controls, signed BAAs, encrypted data flows.',
   },
   {
-    icon: 'Zap',
-    title: 'Daily claim filing',
-    text: 'No batching, no backlog. Claims go out every business day, scrubbed twice.',
+    icon: 'Cpu',
+    title: 'Advanced Technology',
+    text: 'Cutting-edge billing software and analytics for maximum efficiency and visibility.',
   },
   {
-    icon: 'PiggyBank',
-    title: 'Transparent pricing',
-    text: 'Flat percentage or per-claim — no hidden setup fees, no long lock-ins.',
+    icon: 'Sparkles',
+    title: 'Personalized Service',
+    text: 'A dedicated account manager who knows your practice by name — not a rotating queue.',
   },
   {
-    icon: 'Headphones',
-    title: 'Real humans, fast replies',
-    text: 'A named account manager who actually picks up the phone. Same-day responses.',
+    icon: 'Stethoscope',
+    title: 'Specialty-Specific Solutions',
+    text: 'Coders and workflows trained on your specialty — from primary care to cardiology.',
   },
   {
-    icon: 'TrendingUp',
-    title: 'Measurable outcomes',
-    text: 'We commit to KPIs in writing and report on them every single month.',
+    icon: 'Scaling',
+    title: 'Practice Size Flexibility',
+    text: 'From solo practitioners to multi-specialty clinics and hospital-affiliated practices.',
   },
 ]

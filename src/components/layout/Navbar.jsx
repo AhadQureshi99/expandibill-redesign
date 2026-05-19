@@ -48,7 +48,7 @@ export default function Navbar() {
             <PhoneCall className="h-4 w-4 text-accent-500" />
             {company.phone}
           </a>
-          <a href="#contact" className="btn-primary">Get a free audit</a>
+          <a href="#contact" className="btn-primary">Free Consultation</a>
         </div>
 
         <button
@@ -84,7 +84,7 @@ export default function Navbar() {
                 ))}
               </ul>
               <a href="#contact" onClick={() => setOpen(false)} className="btn-primary mt-3 w-full">
-                Get a free audit
+                Schedule a Free Consultation
               </a>
             </div>
           </motion.div>

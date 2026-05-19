@@ -4,23 +4,35 @@ export const company = {
   tagline: 'Medical Billing & Administrative Services',
   description:
     'We help healthcare practices get paid faster, reduce denials, and reclaim hours every week — with a senior team and battle-tested billing workflows.',
-  email: 'info@expandibillsolutions.com',
+  email: 'info@expandibill.com',
   phone: '+1 (217) 993-8990',
   phoneTel: '+12179938990',
-  address: '300 Healthcare Blvd, Suite 200, Houston, TX 77002',
-  hours: 'Mon – Fri · 8:00 AM – 7:00 PM (CST)',
+  address: '2501 Chatham Rd, Suite R, Springfield, IL 62704',
+  hours: 'Monday – Friday · 9:00 AM – 5:00 PM CST',
   socials: [
-    { name: 'LinkedIn',  href: '#', icon: 'Linkedin'  },
-    { name: 'Twitter',   href: '#', icon: 'Twitter'   },
-    { name: 'Facebook',  href: '#', icon: 'Facebook'  },
-    { name: 'Instagram', href: '#', icon: 'Instagram' },
+    {
+      name: 'LinkedIn',
+      href: 'https://www.linkedin.com/company/expandibill-solutions-llc',
+      icon: 'Linkedin',
+    },
+    {
+      name: 'Facebook',
+      href: 'https://www.facebook.com/profile.php?id=61561338005332&mibextid=ZbWKwL',
+      icon: 'Facebook',
+    },
   ],
 }
 
 export const navLinks = [
-  { label: 'Services',     href: '#services'      },
-  { label: 'Why us',       href: '#why-us'        },
-  { label: 'How it works', href: '#process'       },
-  { label: 'Testimonials', href: '#testimonials'  },
-  { label: 'Contact',      href: '#contact'       },
+  { label: 'Services',    href: '#services'    },
+  { label: 'Specialties', href: '#specialties' },
+  { label: 'Why us',      href: '#why-us'      },
+  { label: 'Process',     href: '#process'     },
+  { label: 'FAQ',         href: '#faq'         },
+  { label: 'Contact',     href: '#contact'     },
 ]
+
+export const cta = {
+  primary:   { label: 'Schedule a Free Consultation', href: '#contact' },
+  secondary: { label: 'Get a Free Quote',             href: '#contact' },
+}

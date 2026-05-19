@@ -51,12 +51,12 @@ export default function Hero() {
 
           <motion.div variants={fadeUp} className="mt-8 flex flex-wrap items-center gap-3">
             <a href="#contact" className="btn-primary">
-              Get a free revenue audit
+              Schedule a Free Consultation
               <ArrowRight className="h-4 w-4" />
             </a>
-            <a href="#process" className="btn-ghost">
+            <a href="#services" className="btn-ghost">
               <PlayCircle className="h-4 w-4 text-brand-700" />
-              See how it works
+              Explore our services
             </a>
           </motion.div>
 

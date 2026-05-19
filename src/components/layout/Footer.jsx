@@ -8,21 +8,34 @@ const columns = [
   {
     title: 'Services',
     links: [
-      'Medical billing',
-      'Medical coding',
-      'Credentialing',
-      'AR & denial management',
-      'Eligibility & verification',
-      'Practice analytics',
+      { label: 'Medical Billing & Coding',  href: '#services' },
+      { label: 'Revenue Cycle Management',  href: '#services' },
+      { label: 'Credentialing',             href: '#services' },
+      { label: 'Denial Management',         href: '#services' },
+      { label: 'Eligibility Verification',  href: '#services' },
+      { label: 'Prior Authorization',       href: '#services' },
+      { label: 'Virtual Medical Scribe',    href: '#services' },
     ],
   },
   {
     title: 'Company',
-    links: ['About us', 'How it works', 'Case studies', 'Careers', 'Contact'],
+    links: [
+      { label: 'About Us',     href: '#about'        },
+      { label: 'Specialties',  href: '#specialties'  },
+      { label: 'Our Process',  href: '#process'      },
+      { label: 'Testimonials', href: '#testimonials' },
+      { label: 'Contact',      href: '#contact'      },
+    ],
   },
   {
     title: 'Resources',
-    links: ['Blog', 'Free audit', 'Compliance', 'Privacy policy', 'Terms'],
+    links: [
+      { label: 'FAQ',             href: '#faq'     },
+      { label: 'Free Consultation', href: '#contact' },
+      { label: 'Privacy Policy',  href: '#'        },
+      { label: 'Terms of Service', href: '#'       },
+      { label: 'Cookies',         href: '#'        },
+    ],
   },
 ]
 
@@ -66,9 +79,9 @@ export default function Footer() {
                 </h4>
                 <ul className="mt-5 space-y-3 text-sm">
                   {col.links.map((l) => (
-                    <li key={l}>
-                      <a href="#" className="text-white/70 transition-colors hover:text-accent-400">
-                        {l}
+                    <li key={l.label}>
+                      <a href={l.href} className="text-white/70 transition-colors hover:text-accent-400">
+                        {l.label}
                       </a>
                     </li>
                   ))}
@@ -108,7 +121,9 @@ export default function Footer() {
               <a
                 key={s.name}
                 href={s.href}
-                aria-label={s.name}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${company.name} on ${s.name}`}
                 className="grid h-9 w-9 place-items-center rounded-full border border-white/10 bg-white/5 transition-all hover:-translate-y-0.5 hover:border-accent-400 hover:text-accent-400"
               >
                 <Icon name={s.icon} className="h-4 w-4" />
