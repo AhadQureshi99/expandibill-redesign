@@ -28,25 +28,24 @@ export default function Hero() {
         >
           <motion.span variants={fadeUp} className="chip">
             <Sparkles className="h-3.5 w-3.5" />
-            Trusted by 150+ U.S. healthcare practices
+            U.S.-based · 75+ specialties · 500+ providers
           </motion.span>
 
           <motion.h1
             variants={fadeUp}
             className="mt-5 text-4xl font-bold leading-[1.05] tracking-tight text-ink-900 sm:text-5xl lg:text-6xl"
           >
-            Get paid faster.{' '}
-            <span className="gradient-text">Focus on patients,</span>{' '}
-            not paperwork.
+            You take care of patients.{' '}
+            <span className="gradient-text">We take care of billing.</span>
           </motion.h1>
 
           <motion.p
             variants={fadeUp}
             className="mt-6 max-w-xl text-base leading-relaxed text-ink-700/85 sm:text-lg"
           >
-            Expandibill Solutions takes the entire revenue cycle off your plate —
-            billing, coding, credentialing, and AR follow-up — with senior reviewers
-            and transparent monthly reporting.
+            Expandibill Solutions runs your entire revenue cycle — billing, coding,
+            credentialing, eligibility, AR follow-up, and reporting — with senior,
+            U.S.-based reviewers and transparent monthly accountability.
           </motion.p>
 
           <motion.div variants={fadeUp} className="mt-8 flex flex-wrap items-center gap-3">
@@ -65,13 +64,13 @@ export default function Hero() {
             className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-ink-700/80"
           >
             <li className="inline-flex items-center gap-2">
-              <ShieldCheck className="h-4 w-4 text-accent-500" /> HIPAA-compliant
+              <ShieldCheck className="h-4 w-4 text-accent-500" /> HIPAA · SOC 2 · ISO 27001
             </li>
             <li className="inline-flex items-center gap-2">
-              <FileCheck2 className="h-4 w-4 text-accent-500" /> 98% clean-claim rate
+              <FileCheck2 className="h-4 w-4 text-accent-500" /> 99% first-pass resolution
             </li>
             <li className="inline-flex items-center gap-2">
-              <TrendingUp className="h-4 w-4 text-accent-500" /> +22% revenue in 90 days
+              <TrendingUp className="h-4 w-4 text-accent-500" /> +30% revenue, on average
             </li>
           </motion.ul>
 
@@ -121,7 +120,7 @@ function HeroDashboard() {
           </div>
           <span className="inline-flex items-center gap-1 rounded-full bg-accent-500/10 px-2.5 py-1 text-xs font-semibold text-accent-600">
             <TrendingUp className="h-3.5 w-3.5" />
-            +22.4%
+            +28.4%
           </span>
         </div>
 
@@ -150,9 +149,9 @@ function HeroDashboard() {
 
         <div className="mt-4 grid grid-cols-3 gap-3 text-center">
           {[
-            { k: 'Clean claims', v: '98%' },
-            { k: 'Days in AR',  v: '24'  },
-            { k: 'Denials',     v: '3.2%'},
+            { k: 'Clean claims', v: '99%' },
+            { k: 'Days in AR',  v: '22'  },
+            { k: 'Denials',     v: '2.8%'},
           ].map((s) => (
             <div key={s.k} className="rounded-xl bg-brand-50/70 p-3">
               <p className="font-display text-lg font-bold text-brand-900">{s.v}</p>
