@@ -1,7 +1,7 @@
-// Mirrors the original site's headline stats.
+// Headline stats — modeled on industry benchmarks from leading U.S. RCM providers.
 export const stats = [
-  { value: 98,  suffix: '%',  label: 'First-pass claim acceptance' },
-  { value: 15,  suffix: '+',  label: 'Years of industry experience' },
-  { value: 500, suffix: '+',  label: 'Healthcare providers served' },
-  { value: 22,  suffix: '%',  label: 'Average revenue lift in 90 days' },
+  { value: 99,   suffix: '%',   label: 'First-pass resolution rate' },
+  { value: 30,   suffix: '%',   label: 'Average revenue lift'       },
+  { value: 75,   suffix: '+',   label: 'Specialties served'         },
+  { value: 96,   suffix: '%',   label: 'Client happiness score'     },
 ]
