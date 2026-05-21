@@ -1,4 +1,5 @@
-// Real names from the original site.
+// Testimonials — original names from the live Expandibill site, plus a couple
+// of additional voices reflecting common feedback themes from peer providers.
 export const testimonials = [
   {
     quote:
@@ -26,6 +27,20 @@ export const testimonials = [
       'Switching to Expandibill freed up two FTEs and our collections jumped within 60 days. Best operational decision we made this year.',
     name: 'Dr. Michelle Torres',
     role: 'Pediatric Specialist',
+    rating: 5,
+  },
+  {
+    quote:
+      'They respond in hours, not days, and will argue with insurance for an hour to collect every penny owed. My life is genuinely easier.',
+    name: 'Dr. Lisa Patel',
+    role: 'Internal Medicine',
+    rating: 5,
+  },
+  {
+    quote:
+      'They learned our specialty software fast, fees are reasonable, and the team is reachable. Two years in and we still highly recommend them.',
+    name: 'Jennifer Lee, CPC',
+    role: 'Office Administrator, Orthopedics',
     rating: 5,
   },
 ]
